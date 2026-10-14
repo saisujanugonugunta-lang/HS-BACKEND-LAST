@@ -5,7 +5,6 @@ require("dotenv").config();
 
 const app = express();
 
-// Render provides its own port
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
